@@ -1,0 +1,73 @@
+Solutions to Knapsack-ID.
+
+Note: Other solutions may be possible, depending on the order in which you
+add objects to the state. However, your solution should use the same number of 
+objects as the solutions given here.
+
+The weights are the same in all these examples; all that changes is the
+target value and the capacity.
+
+Input 1:
+200 200
+A  100   100
+B   95    80
+C   82    85
+D   75    72
+E   69    50
+F   55    60
+G   42    49
+H   35    31
+I   21    25
+J   13    15
+
+Output: ABJ
+
+
+Input 2:
+235 210
+A  100   100
+B   95    80
+C   82    85
+D   75    72
+E   69    50
+F   55    60
+G   42    49
+H   35    31
+I   21    25
+J   13    15
+
+Output: BDE
+
+Input 3:
+440 400
+A  100   100
+B   95    80
+C   82    85
+D   75    72
+E   69    50
+F   55    60
+G   42    49
+H   35    31
+I   21    25
+J   13    15
+
+Output: No solution
+
+
+Input 4:
+440 410
+A  100   100
+B   95    80
+C   82    85
+D   75    72
+E   69    50
+F   55    60
+G   42    49
+H   35    31
+I   21    25
+J   13    15
+
+Output: ABDEFHJ
+
+
+
